@@ -1,8 +1,8 @@
-const fs = require('fs');
-const mqtt = require('mqtt')
-const client  = mqtt.connect('mqtt://localhost')
-const json
-const argument
+var fs = require('fs');
+var mqtt = require('mqtt')
+var client  = mqtt.connect('mqtt://localhost')
+var json
+var argument
 
 if(process.argv[2] === undefined){
     argument="sample1.json" 
